@@ -1,0 +1,239 @@
+*{
+	font-family: sans-serif;
+	scroll-behavior: smooth;
+	user-select: none;
+}
+
+.contenedor-modal{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	z-index: 1000;
+	background-color: #5ea119;
+	justify-content: center;
+}
+
+.contenedor-contenido{
+	width: 80%;
+	height: 70%;
+	margin: auto;
+	background-color: #eee;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.texto-modal{
+    width:80%;
+}
+
+.texto-modal, #numero-de-telefono, .button-accesp {
+	margin: 20px auto;
+	text-align: center;
+}
+
+#numero-de-telefono:focus {
+	border-color: #00b8e6;
+}
+
+#numero-de-telefono:active {
+	border-color: #00b8e6!important;
+}
+
+.button-acceso {
+	width: 240px;
+	height: 50px;
+	background-color: #5eb319;
+	color: #fff;
+	padding-bottom: 10px;
+	border: 3px groove #009519;
+	border-radius: 10px;
+	margin: 20px auto;
+	text-align: center;
+	vertical-align: center;
+	padding-top: 10px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+
+.headerEvaluacion {
+
+	height: 40px;
+	width: 100%;
+	background-color: #bbb;
+	color: #111;
+	padding-left: 30px;
+	padding-top: 20px;
+	border-bottom: 3px groove #abc20a;
+
+}
+
+.testContainer {
+
+	width: 76%;
+	margin-left: 10px;
+	padding-left: 30px;
+
+}
+
+.bienvenido {
+
+	margin: auto;
+	text-align: center;
+}
+
+.con-puntos {
+
+	margin-left: 5%;
+}
+
+.tabla {
+
+	margin:auto;
+}
+
+.amplitud-tabla {
+
+	width: 100px;
+}
+
+th {
+
+	text-align: left;
+}
+
+.little-border {
+
+	width: 95%;
+	border-top: 2px solid #3331;
+	border-bottom: 2px solid #3331;
+}
+
+.divisor{
+
+	width: 95%;
+	border-top: 2px solid #3331;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+
+.divisor-preguntas {
+	width: 95%;
+	border-bottom: 2px solid #3331;
+	margin-bottom: 20px;
+	padding-bottom: 30px;
+}
+
+.divTextoOpcion1 {
+
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.answer-first-part{
+
+	width: 45%;
+	min-width: 400px;
+	margin: 15px 20px;
+
+}
+
+.options-first-part {
+
+	width: 20%;
+	margin: 15px 20px;
+
+}
+
+.posibility-option {
+
+	width: 200px;
+	height: 50px;
+	border: 2px solid #3331;
+	border-radius: 10px;
+
+}
+
+.finish-test-buttom {
+
+	width: 240px;
+	height: 50px;
+	background-color: #5eb319;
+	color: #fff;
+	padding-bottom: 10px;
+	border: 3px groove #009519;
+	border-radius: 10px;
+	margin: 20px auto;
+	text-align: center;
+	vertical-align: center;
+	padding-top: 10px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+
+.forCountdown {
+	height: 370px;
+	margin-bottom: 30px;
+	margin-right: 10px;
+	width: 250px;
+	background-color: #5ea119;
+	border-radius: 5px;
+	bottom: 0px;
+	position: sticky;
+	bottom: 50%;
+	left: 100%;
+	transition: height 1s, width 1.5s, background-color 0.6s;
+
+}
+
+.forCountdown:active{
+
+	background-color: #d55;
+
+}
+
+.countdown{
+	margin: 30px auto;
+	width: 125px;
+	height: 110px;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 60px;
+	background-color: white;
+	color: #5ea119;
+	border: 2px #444c;
+	border-radius: 50%;
+	vertical-align: center;
+
+}
+
+.minutos{
+
+	font-size: 12px;
+	color: #000;
+}
+
+.texto-dentro-countdown{
+	color:#fff;
+	margin: 5px auto;
+	text-align: center;
+}
+
+.question-number{
+	color:#fff;
+	margin: 5px auto;
+	text-align: center;
+}
+
+.link-envio-formulario{
+
+	text-decoration: none;
+}
